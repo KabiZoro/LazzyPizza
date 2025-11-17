@@ -1,4 +1,4 @@
-package com.kabi.lazzypizza.ui.theme
+package com.kabi.lazzypizza.core.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
