@@ -56,4 +56,8 @@ dependencies {
 
     //splashscreen
     implementation(libs.androidx.core.splashscreen)
+
+    //icons
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
 }
