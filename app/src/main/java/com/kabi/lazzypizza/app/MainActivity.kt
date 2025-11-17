@@ -1,5 +1,6 @@
-package com.kabi.lazzypizza
+package com.kabi.lazzypizza.app
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
@@ -13,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.kabi.lazzypizza.ui.theme.LazzyPizzaTheme
+import com.kabi.lazzypizza.core.presentation.designsystem.ui.theme.LazzyPizzaTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,12 +22,12 @@ class MainActivity : ComponentActivity() {
         installSplashScreen()
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.auto(
-                android.graphics.Color.TRANSPARENT,
-                android.graphics.Color.TRANSPARENT
+                Color.TRANSPARENT,
+                Color.TRANSPARENT
             ),
             navigationBarStyle = SystemBarStyle.auto(
-                android.graphics.Color.TRANSPARENT,
-                android.graphics.Color.TRANSPARENT
+                Color.TRANSPARENT,
+                Color.TRANSPARENT
             )
         )
         setContent {

@@ -1,4 +1,4 @@
-package com.kabi.lazzypizza.ui.theme
+package com.kabi.lazzypizza.core.presentation.designsystem.ui.theme
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.ui.graphics.Brush
