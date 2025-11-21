@@ -14,8 +14,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Remove
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -35,10 +33,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.kabi.lazzypizza.R
-import com.kabi.lazzypizza.core.presentation.theme.Minus
-import com.kabi.lazzypizza.core.presentation.theme.Plus
-import com.kabi.lazzypizza.core.presentation.theme.PrimaryContainer
-import com.kabi.lazzypizza.util.instrumentSans
+import com.kabi.lazzypizza.core.presentation.designsystem.ui.theme.Minus
+import com.kabi.lazzypizza.core.presentation.designsystem.ui.theme.Plus
+import com.kabi.lazzypizza.core.presentation.designsystem.ui.theme.PrimaryContainer
+import com.kabi.lazzypizza.core.presentation.util.instrumentSans
 
 @Composable
 fun ToppingCards(

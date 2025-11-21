@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
-import com.kabi.lazzypizza.core.presentation.theme.Outline
+import com.kabi.lazzypizza.core.presentation.designsystem.ui.theme.Outline
 
 @Composable
 fun IconButtonWithBorder(

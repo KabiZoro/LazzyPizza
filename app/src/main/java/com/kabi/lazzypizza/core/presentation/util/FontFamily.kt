@@ -1,4 +1,4 @@
-package com.kabi.lazzypizza.util
+package com.kabi.lazzypizza.core.presentation.util
 
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily

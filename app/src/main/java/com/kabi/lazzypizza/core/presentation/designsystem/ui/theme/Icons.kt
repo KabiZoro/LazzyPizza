@@ -1,4 +1,4 @@
-package com.kabi.lazzypizza.core.presentation.theme
+package com.kabi.lazzypizza.core.presentation.designsystem.ui.theme
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.runtime.Composable
